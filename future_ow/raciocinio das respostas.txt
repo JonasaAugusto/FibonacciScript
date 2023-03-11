@@ -1,0 +1,44 @@
+2- Para calcular a sequência, eu utilizei o seguinte raciocínio:
+n = a + b
+Onde "a" e "b" são os números anteriores a "n" na sequencia de Fibonacci,
+
+Invertendo a equação eu obtive: n - b = a 
+Que substituindo a por "n - b" adquiri: n = (n - b) + b
+
+Aplicando o quadrado dos números e multiplicando ambos os lados por 5n temos: 5n² = 5n(n - b) + 5nb
+Adicionando ou subtraindo em ambos os lados, temos o resultado: 5n² + 4b² = 5n(n - b) + 5nb + 4b²
+
+Porém ainda sabendo que "n - b" é igual a "a", substituindo eu obtive: 5n² + 4b² = 5na + 5nb + 4b²V
+
+Vendo que "5na + 5nb" é igual a "5n(a + b)", que é igual a "5n²" porque "a + b" é igual a "n" na sequência de Fibonacci. Então simplificando a equação ficou: 5n² + 4b² = 5n² + 4b²
+
+E simplificando mais ainda eu tive o resultado: 5n² + 4b² = (5n ± 2)²
+
+Assim entrando a expressão no código na linha 31: "5*n*n + 4" ou "5*n*n - 4"
+Sendo possível verificar se 'n' pertence ou não à sequência de fibonacci.
+
+
+3- Usei a fórmula 'distância = tempo x velocidade'
+
+Tempo do carro = 50km / 110 km/h
+Tempo do carro = 27 minutos ou 0,45 horas
+
+Tempo do caminhão = 50km / 80 km/h
+Tempo do caminhão = 37.5 minutos ou 0,675 horas (já que o caminhão demora 5 minutos por pedágio)
+
+O carro percorreu 50 km em 0,45 horas, o que significa que ele percorreu uma distância de:
+
+d = v * t
+d = 110 * 0,45
+d = 49,5 km
+
+O caminhão percorreu 50 km em 0,675 horas, o que significa que ele percorreu uma distância de:
+
+d = v * t + pedágios
+t = 50 / 80 + 0,17
+t = 0,675 horas
+
+d = 80 * 0,675
+d = 54 km
+
+Portanto, quando os veículos se cruzarem na rodovia, o caminhão estará mais próximo da cidade de Ribeirão Preto, a uma distância de 46 km, enquanto o carro estará a uma distância de 54 km.
