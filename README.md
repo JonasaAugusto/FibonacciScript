@@ -1,4 +1,1 @@
-# estagio-analise-desenvolvimento-ribeirao-preto
-Respostas das atividades.
-
-Todas as atividades foram feitas com sucesso.
+Criei um Script que verifica se o número dado é da sequencia de fibonacci ou não.
