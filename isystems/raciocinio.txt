@@ -16,29 +16,3 @@ E simplificando mais ainda eu tive o resultado: 5n² + 4b² = (5n ± 2)²
 
 Assim entrando a expressão no código na linha 31: "5*n*n + 4" ou "5*n*n - 4"
 Sendo possível verificar se 'n' pertence ou não à sequência de fibonacci.
-
-
-3- Usei a fórmula 'distância = tempo x velocidade'
-
-Tempo do carro = 50km / 110 km/h
-Tempo do carro = 27 minutos ou 0,45 horas
-
-Tempo do caminhão = 50km / 80 km/h
-Tempo do caminhão = 37.5 minutos ou 0,675 horas (já que o caminhão demora 5 minutos por pedágio)
-
-O carro percorreu 50 km em 0,45 horas, o que significa que ele percorreu uma distância de:
-
-d = v * t
-d = 110 * 0,45
-d = 49,5 km
-
-O caminhão percorreu 50 km em 0,675 horas, o que significa que ele percorreu uma distância de:
-
-d = v * t + pedágios
-t = 50 / 80 + 0,17
-t = 0,675 horas
-
-d = 80 * 0,675
-d = 54 km
-
-Portanto, quando os veículos se cruzarem na rodovia, o caminhão estará mais próximo da cidade de Ribeirão Preto, a uma distância de 46 km, enquanto o carro estará a uma distância de 54 km.
