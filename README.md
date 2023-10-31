@@ -16,5 +16,5 @@ Vendo que "5na + 5nb" é igual a "5n(a + b)", que é igual a "5n²" porque "a + 
 
 E simplificando mais ainda eu tive o resultado: 5n² + 4b² = (5n ± 2)²
 
-Assim entrando a expressão no código na linha 31: "5*n*n + 4" ou "5*n*n - 4"
+Assim entrando a expressão no código na linha 21: "5*n*n + 4" ou "5*n*n - 4"
 Sendo possível verificar se 'n' pertence ou não à sequência de fibonacci.
