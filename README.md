@@ -10,7 +10,7 @@ Que substituindo a por "n - b" adquiri: n = (n - b) + b
 Aplicando o quadrado dos números e multiplicando ambos os lados por 5n temos: 5n² = 5n(n - b) + 5nb
 Adicionando ou subtraindo em ambos os lados, temos o resultado: 5n² + 4b² = 5n(n - b) + 5nb + 4b²
 
-Porém ainda sabendo que "n - b" é igual a "a", substituindo eu obtive: 5n² + 4b² = 5na + 5nb + 4b²V
+Porém ainda sabendo que "n - b" é igual a "a", substituindo eu obtive: 5n² + 4b² = 5na + 5nb + 4b²
 
 Vendo que "5na + 5nb" é igual a "5n(a + b)", que é igual a "5n²" porque "a + b" é igual a "n" na sequência de Fibonacci. Então simplificando a equação ficou: 5n² + 4b² = 5n² + 4b²
 
